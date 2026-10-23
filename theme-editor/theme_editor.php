@@ -4,7 +4,7 @@ Plugin Name: Theme Editor
 Plugin URI: https://themeeditor.pro
 Description: create, edit, upload, download, delete Theme Files and folders
 Author: mndpsingh287
-Version: 3.1
+Version: 3.2
 Author URI: https://profiles.wordpress.org/mndpsingh287
 Text Domain: theme-editor
 */

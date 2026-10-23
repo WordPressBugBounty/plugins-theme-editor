@@ -58,6 +58,8 @@ if ( !defined( 'ABSPATH' ) ) exit;
         }
         
         static function save() {
+		 // verify none before save
+		 check_ajax_referer('ms_child_theme_editor_action','wp_nonce');
            if(current_user_can('manage_options')){
 				self::ctc()->ajax_save_postdata();
 		   }
